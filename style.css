@@ -12,8 +12,8 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 50vh;
-    height: 40vh;
+    width: 700px;
+    height: 500px;
     transform: translate(-50%, -50%);
 }
 #fundo{
@@ -21,14 +21,16 @@ body{
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 51vh;
-    height: 41vh;
+    width: 710px;
+    height: 510px;
     transform: translate(-50%, -50%);
     overflow: hidden;
 }
 #pisca{
    width: 40vh;
    height: 60vh;
+   min-height: 25vh;
+   min-width: 45vh;
    background-image: linear-gradient(to left, #16AAFF, rgba(212, 24, 24, 0));
    position: absolute;
    left: 50%;
@@ -39,6 +41,8 @@ body{
 #pisca2{
     width: 40vh;
     height: 60vh;
+    min-height: 25vh;
+    min-width: 45vh;
     background-image: linear-gradient(to right, #16AAFF, rgba(228, 28, 28, 0));
     position: absolute;
     left: -28.5%;
@@ -59,28 +63,29 @@ body{
 }
 
 h1{
-    font-size: 40pt;
+    font-size: 38pt;
     font-family: 'Sofia Sans', sans-serif;
     text-align: center;
     font-weight: 350;
     text-decoration: underline;
     text-decoration-color: #16AAFF;
+    margin: 1em;
 }
 h2{
-    font-size: 25pt;
+    font-size: 22pt;
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 300;
     margin-left: 1.5em;
     margin-top: 1.7em;
 }
 p{
-    font-size: 25pt;
+    font-size: 22pt;
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 300;
     margin-left: 1.5em;
 }
 input{
-    font-size: 23pt;
+    font-size: 20pt;
     font-family: 'Sofia Sans', sans-serif;
     font-weight: 300;
     background-color: #0F1F2E;
